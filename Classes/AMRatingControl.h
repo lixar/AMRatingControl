@@ -19,7 +19,7 @@ typedef void (^EditingDidEndBlock)(NSUInteger rating);
 @property (nonatomic, assign) NSInteger maxRating;
 @property (nonatomic, assign) NSInteger rating;
 @property (nonatomic, readwrite) NSUInteger starFontSize;
-@property (nonatomic, readwrite) NSUInteger starWidthAndHeight;
+@property (nonatomic, readwrite) CGSize starSize;
 @property (nonatomic, readwrite) NSUInteger starSpacing;
 @property (nonatomic, copy) EditingChangedBlock editingChangedBlock;
 @property (nonatomic, copy) EditingDidEndBlock editingDidEndBlock;
